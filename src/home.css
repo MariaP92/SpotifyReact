@@ -1,0 +1,27 @@
+.y-web-nav {
+    width: 20%;
+    background:#1C1D1C;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    z-index: 20;
+    position: fixed;
+    left: 0px;
+    min-height: 600px;
+    opacity: 0.9;
+}
+
+.y-logo {
+    margin: 70px auto 85px auto;
+    display: block;
+    width: 80px;
+    height: auto;
+}
+
+.y-footer{
+    background: red;
+    position: fixed;
+    z-index: 200;
+    position: absolute;
+    bottom: -605px;
+}
