@@ -1,0 +1,17 @@
+.y-home{
+   /* background: #212F44;   */
+    height: 100%;
+}
+.y-menu{
+    list-style: none !important;
+    
+}
+.y-menu a{
+    text-decoration: none;
+    color: #dcdfe2;
+    line-height: 67px;
+}
+.y-menu a:hover{
+    color: #127E2D;
+    text-decoration: none;
+}
