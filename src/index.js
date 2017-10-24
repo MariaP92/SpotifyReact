@@ -7,4 +7,3 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<YHome/>, document.getElementById('root'));
 registerServiceWorker();
-gi
