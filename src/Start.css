@@ -1,0 +1,13 @@
+.y-home{
+   /* background: #212F44;   */
+    height: 100%;
+}
+
+.y-menu a{
+    text-decoration: none;
+    list-style: none;
+}
+.y-menu a:hover{
+    color: #127E2D;
+    text-decoration: none;
+}

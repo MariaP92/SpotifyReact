@@ -12,7 +12,7 @@ class NavWeb extends Component {
 	render() {
 		return (
 			<nav className='y-web-nav'>
-				<a><img className='y-logo' src='images/logo.png' /></a>
+				<a><img className='y-logo' src='http://www.sambeklik.com/wp-content/uploads/2015/06/spotify-300x300.png' /></a>
 				<ul className='y-menu'>
 					<li><NavLink to="/start"><a>Inicio</a></NavLink></li>
 					<li><NavLink to="/your_music"><a>Tu Música</a></NavLink></li>
