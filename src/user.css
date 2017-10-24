@@ -7,7 +7,9 @@
     height: 150px;
     border-radius: 196px;
 }
-
+.cont-y {
+   background-color:#0e0e0e;
+}
 .y-a, .y-a:focus, .y-a:hover {
     text-decoration: none;
 }
