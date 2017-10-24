@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './Start.css';
+import './Your_Music.css';
 
-
-class Start extends Component {
+class Your_Music extends Component {
     render() {
         return (
             <div className="container">
@@ -10,10 +9,8 @@ class Start extends Component {
                     <div className="col-xs-9 col-xs-offset-3 col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-3">
 
                         <ul>
-                            <li>SELECCIONADOS</li>
-                            <li>GÉNEROS Y ESTADOS DE ÁNIMO</li>
-                            <li>NOVEDADES</li>
-                            <li>DESCUBRIR</li>
+                            <li>PLAYLIST</li>
+                            <li>ALBUMS</li>
                         </ul>
                     </div>
                 </div>
@@ -23,4 +20,4 @@ class Start extends Component {
     }
 }
 
-export default Start;
+export default Your_Music;
