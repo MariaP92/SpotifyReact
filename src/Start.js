@@ -1,47 +1,24 @@
 import React, { Component } from 'react';
 import './Start.css';
-import {
-    BrowserRouter,
-    Route,
-    Switch,
-    Redirect,
-    NavLink
-} from 'react-router-dom'
 
-class NavWeb extends Component {
-    render() {
-        return (
-            <nav className='y-web-nav'>
-                <a><img className='y-logo' src='http://www.sambeklik.com/wp-content/uploads/2015/06/spotify-300x300.png'/></a>
-                <ul className='y-menu'>
-                    <li><NavLink to="/start"><a>Inicio</a></NavLink></li>
-                    <li><NavLink to="/your_music"><a>Tu Música</a></NavLink></li>
-                </ul>
-            </nav>
-        )
-    }
-}
 
 class Start extends Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
-                    <div className="col-md-3 col-sm-12 col-xs-12">
-                        <NavWeb />
-                    </div>
-                    <div className="col-md-9">
-                        <div className="y-home">
-                            <ul>
-                                <li>SELECCIONADOS</li>
-                                <li>GÉNEROS Y ESTADOS DE ÁNIMO</li>
-                                <li>NOVEDADES</li>
-                                <li>DESCUBRIR</li>
-                            </ul>
-                        </div>
+                    <div className="col-xs-9 col-xs-offset-3 col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-3">
+
+                        <ul>
+                            <li>SELECCIONADOS</li>
+                            <li>GÉNEROS Y ESTADOS DE ÁNIMO</li>
+                            <li>NOVEDADES</li>
+                            <li>DESCUBRIR</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
         );
     }
 }
