@@ -19,6 +19,7 @@ const App = (props) => {
 	return (
 		<BrowserRouter>
 			<div>
+				<div className="col-md-3">
 				<nav className='y-web-nav'>
 					<a><img className='y-logo' src='http://www.sambeklik.com/wp-content/uploads/2015/06/spotify-300x300.png' /></a>
 					<ul className='y-menu'>
@@ -29,7 +30,9 @@ const App = (props) => {
 
 					</ul>
 				</nav>
-
+				</div>
+				<div className="col-xs-9 col-xs-offset-3 col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-3">
+                    
 				<Switch>
 					<Route path="/spotifyreact"
 						render={() => <Redirect to={'/home'} />} />
@@ -41,6 +44,7 @@ const App = (props) => {
 					<Route component={Home} />
 				</Switch>
 			</div>
+                </div>
 		</BrowserRouter>)
 }
 
