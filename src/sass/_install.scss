@@ -1,0 +1,26 @@
+$white:#fff;
+$blue:#2E1D86;
+$green:#1db954;
+$black:#04021F;
+.ycontain{
+  background: -webkit-radial-gradient($blue, $black);
+
+  &__ycontext{
+    text-align: center;
+    color: $white;
+    &--yimg {
+      margin-top: 5%;
+      border-radius: 5%;
+      width: 45%;
+      text-decoration: none;
+    }
+    &--ybtn{
+      color:$white;
+      background-color: $green;
+      padding: 11px 44px 12px;
+      margin: 3%;
+    }
+  }
+}
+
+

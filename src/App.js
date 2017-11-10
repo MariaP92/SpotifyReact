@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Search from './Search';
 import Home from './Home';
 import Start from './Start'
+import Install from './install'
 import User from './user.js'
 import Your_Music from './Your_Music'
 import './sass/main.css'
@@ -19,19 +20,18 @@ const App = (props) => {
 	console.log('app.props', props)
 	return (
 		<BrowserRouter>
-			<div className="col-md-3">
+			<div>
 				<nav className='nav'>
 					<a><img className='nav__img' src='http://www.sambeklik.com/wp-content/uploads/2015/06/spotify-300x300.png' /></a>
 					<ul className='nav__ul menu'>
 						<li><NavLink to="/search"><a>Buscar</a></NavLink></li>
 						<li><NavLink to="/start"><a>Inicio</a></NavLink></li>
 						<li><NavLink to="/your_music"><a>Tu Música</a></NavLink></li>
+						<li><NavLink to="/install"><a>Instalar Aplicacion</a></NavLink></li>
 						<li><NavLink to="/user"><a>Yolo</a></NavLink></li>
 
 					</ul>
 				</nav>
-				</div>
-				<div className="col-xs-9 col-xs-offset-3 col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-3">
                     
 				<Switch>
 					<Route path="/spotifyreact"
@@ -41,6 +41,7 @@ const App = (props) => {
 					<Route path="/start" render={() => <Start model={model} />} />
 					<Route path="/user" render={() => <User model={model} />} />
 					<Route path="/your_music" render={() => <Your_Music model={model} />} />
+					<Route path="/install" render={() => <Install model={model} />} />
 					<Route component={Home} />
 				</Switch>
 			</div>

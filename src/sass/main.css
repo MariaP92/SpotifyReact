@@ -73,7 +73,7 @@
 
 .searchContainer {
   position: relative;
-  margin-left: -15px;
+  margin-left: 260px;
   color: white;
   background-color: #282828;
   padding: 1.5em 2em;
@@ -99,6 +99,29 @@
 
 .searchContainer__searchInput:focus {
   outline: 0px;
+}
+
+.ycontain {
+  background: -webkit-radial-gradient(#2E1D86, #04021F);
+}
+
+.ycontain__ycontext {
+  text-align: center;
+  color: #fff;
+}
+
+.ycontain__ycontext--yimg {
+  margin-top: 5%;
+  border-radius: 5%;
+  width: 45%;
+  text-decoration: none;
+}
+
+.ycontain__ycontext--ybtn {
+  color: #fff;
+  background-color: #1db954;
+  padding: 11px 44px 12px;
+  margin: 3%;
 }
  
 
