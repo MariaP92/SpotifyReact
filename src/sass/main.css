@@ -115,6 +115,36 @@
   color: #127E2D;
   text-decoration: none;
 }
+
+.searchContainer {
+  position: relative;
+  margin-left: -15px;
+  color: white;
+  background-color: #282828;
+  padding: 1.5em 2em;
+}
+
+.searchContainer__searchTitle {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: .5em;
+}
+
+.searchContainer__searchInput {
+  caret-color: #1db954;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.6;
+}
+
+.searchContainer__searchInput:focus {
+  outline: 0px;
+}
  
 
  /*# sourceMappingURL= main.css.map */
