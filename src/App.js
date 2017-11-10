@@ -19,7 +19,7 @@ const App = (props) => {
 	console.log('app.props', props)
 	return (
 		<BrowserRouter>
-			<div>
+			<div className="col-md-3">
 				<nav className='nav'>
 					<a><img className='nav__img' src='http://www.sambeklik.com/wp-content/uploads/2015/06/spotify-300x300.png' /></a>
 					<ul className='nav__ul menu'>
