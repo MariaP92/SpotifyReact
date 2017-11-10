@@ -4,6 +4,7 @@ import Home from './Home';
 import Start from './Start'
 import User from './user.js'
 import Your_Music from './Your_Music'
+import Footer from './y-footer.js'
 
 import {
 	BrowserRouter,
@@ -40,6 +41,8 @@ const App = (props) => {
 					<Route path="/your_music" render={() => <Your_Music model={model} />} />
 					<Route component={Home} />
 				</Switch>
+				<Footer/>
+
 			</div>
 		</BrowserRouter>)
 }
