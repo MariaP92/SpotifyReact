@@ -33,7 +33,6 @@
   z-index: 20;
   position: fixed;
   left: 0px;
-  min-height: 600px;
   opacity: 0.9; }
   .nav__img {
     margin: 70px auto 85px auto;
