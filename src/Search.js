@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/main.css';
+import './sass/main.css';
 const Search = () => 
 {
     return(
