@@ -5,9 +5,7 @@
 }
 
 .userCtn .btn-y {
-  padding: 7px 22px 8px;
-  font-size: 11px;
-  padding: 11px 44px 12px;
+  font-size: 0.7em;
   background: rgba(23, 23, 23, 0.7);
   color: #fff;
   cursor: pointer;
@@ -21,22 +19,13 @@
   line-height: 1.6;
 }
 
-.cont-y {
-  background-color: #0e0e0e;
-}
-
-.y-a,
-.y-a:focus,
-.y-a:hover {
-  text-decoration: none;
-}
-
-.footerLinks {
+.userCtnfooterLinks {
   margin: 40px;
   color: gray;
 }
 
-.footerLinks__item {
+.userCtn a {
+  text-decoration: none;
   font-size: 12px;
   display: inline-block;
   color: currentColor;

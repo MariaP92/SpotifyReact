@@ -17,7 +17,7 @@ class User extends Component {
             <div className="userCtn__btnG">
               <div>
                 <a
-                  className="btn-y  y-a"
+                  className="btn-y"
                   href="https://www.spotify.com/account/?utm_source=play&utm_campaign=wwwredirect&utm_medium=stp_test"
                   style={{ minWidth: 240 }}
                 >
@@ -26,7 +26,7 @@ class User extends Component {
               </div>
               <div >
                 <a
-                  className="btn-y y-a"
+                  className="btn-y"
                   href="https://www.spotify.com/home?utm_source=play&utm_campaign=wwwredirect&utm_medium=stp_test"
                   style={{ minWidth: 240 }}
                 >
@@ -35,7 +35,7 @@ class User extends Component {
               </div>
               <div>
                 <a
-                  className="btn-y y-a"
+                  className="btn-y"
                   href="https://support.spotify.com/?utm_source=play&utm_campaign=wwwredirect&utm_medium=stp_test"
                   style={{ minWidth: 240 }}
                 >
@@ -44,7 +44,7 @@ class User extends Component {
               </div>
               <div >
                 <a
-                  className="btn-y y-a"
+                  className="btn-y"
                   href="#"
                   style={{ minWidth: 240 }}
                 >
@@ -52,30 +52,30 @@ class User extends Component {
                 </a>
               </div>
             </div><br/>
-            <div className="footerLinks">
+            <div className="userCtn__footerLinks">
               <a
                 className="footerLinks__item"
                 href="https://www.spotify.com/legal/"
               >
                 Información legal
               </a>
-              <span className="footerLinks__divider">|</span>
+              <span>|</span>
               <a
                 className="footerLinks__item "
                 href="https://www.spotify.com/legal/privacy-policy/"
               >
                 Privacidad
               </a>
-              <span className="footerLinks__divider">|</span>
+              <span>|</span>
               <a
-                className="footerLinks__item y-a"
+                className="footerLinks__item"
                 href="https://www.spotify.com/legal/privacy-policy/#s13"
               >
                 Cookies
               </a>
-              <span className="footerLinks__divider">|</span>
+              <span>|</span>
               <a
-                className="footerLinks__item y-a"
+                className="footerLinks__item "
                 href="https://www.spotify.com/legal/privacy-policy/#s13"
               >
                 Acerca de los anuncios
