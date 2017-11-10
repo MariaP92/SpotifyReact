@@ -1,5 +1,5 @@
-.y-web-nav {
-    width: 25%;
+.nav {
+    width: 20%;
     background:#1C1D1C;
     height: 100%;
     overflow: auto;
@@ -9,12 +9,13 @@
     left: 0px;
     min-height: 600px;
     opacity: 0.9;
+
+    &__img {
+        margin: 70px auto 85px auto;
+        display: block;
+        width: 80px;
+        height: auto;
+    }
 }
 
-.y-logo {
-    margin: 70px auto 85px auto;
-    display: block;
-    width: 80px;
-    height: auto;
-}
 

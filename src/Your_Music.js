@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Your_Music.css';
+import './sass/main.css';
 
 class Your_Music extends Component {
     render() {
