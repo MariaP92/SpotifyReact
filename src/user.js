@@ -4,7 +4,7 @@ import "./user.css";
 class User extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container ">
         <div className="row">
           <div className="col-md-6 col-md-offset-3 text-center">
             <div>
