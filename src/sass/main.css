@@ -75,6 +75,46 @@
 .button-group__item {
   padding: 0 10px;
 }
+
+.nav {
+  width: 25%;
+  background: #1C1D1C;
+  height: 100%;
+  overflow: auto;
+  float: left;
+  z-index: 20;
+  position: fixed;
+  left: 0px;
+  min-height: 600px;
+  opacity: 0.9;
+}
+
+.nav__img {
+  margin: 70px auto 85px auto;
+  display: block;
+  width: 80px;
+  height: auto;
+}
+
+.menu {
+  /* background: #212F44;   */
+  height: 100%;
+}
+
+.menu {
+  list-style: none !important;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #dcdfe2;
+  line-height: 67px;
+}
+
+.menu a:hover {
+  color: #127E2D;
+  text-decoration: none;
+}
  
 
  /*# sourceMappingURL= main.css.map */
