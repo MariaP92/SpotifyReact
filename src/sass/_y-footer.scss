@@ -31,11 +31,11 @@
     bottom: 0;
     z-index: 101;
    
-    .player-controls{
+    &__player-controls{
         align-items: center;
         height: 90px;      
     }
-    .player-controls__buttons {
+    &__buttons {
         margin-bottom: 12px;
         cursor: default;
         justify-content: space-between;
