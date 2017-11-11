@@ -65,7 +65,7 @@
 /*hhh*/
 .searchContainer {
   position: relative;
-  margin-left: -15px;
+  margin-left: 260px;
   color: white;
   background-color: #282828;
   padding: 1.5em 2em; }
@@ -85,32 +85,6 @@
     line-height: 1.6; }
     .searchContainer__searchInput:focus {
       outline: 0px; }
-
-.userCtn--img {
-  width: 150px;
-  height: 150px;
-  border-radius: 196px; }
-.userCtn .btn-y {
-  font-size: 0.7em;
-  background: rgba(23, 23, 23, 0.7);
-  color: #fff;
-  cursor: pointer;
-  margin-top: 1em;
-  display: inline-block;
-  margin-bottom: 0;
-  text-align: center;
-  border-radius: 500px;
-  padding: 13px;
-  letter-spacing: 2px;
-  line-height: 1.6; }
-.userCtnfooterLinks {
-  margin: 40px;
-  color: gray; }
-.userCtn a {
-  text-decoration: none;
-  font-size: 12px;
-  display: inline-block;
-  color: currentColor; }
 
 .container {
   background: linear-gradient(#178120, #0c0402 85%);
@@ -150,5 +124,21 @@
     justify-content: space-between;
     flex-flow: row nowrap;
     margin: 2% 1%; }
+
+.ycontain {
+  background: -webkit-radial-gradient(#2E1D86, #04021F); }
+  .ycontain__ycontext {
+    text-align: center;
+    color: #fff; }
+    .ycontain__ycontext--yimg {
+      margin-top: 5%;
+      border-radius: 5%;
+      width: 45%;
+      text-decoration: none; }
+    .ycontain__ycontext--ybtn {
+      color: #fff;
+      background-color: #1db954;
+      padding: 11px 44px 12px;
+      margin: 3%; }
 
 /*# sourceMappingURL=main.css.map */

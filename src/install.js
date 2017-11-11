@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Button } from 'react-bootstrap';
-import { Grid, Row, Col } from 'react-bootstrap';
+import './sass/main.css';
 
-const install = () => {
-  return (
-    <Grid>
-      <Row className="show-grid">
-        <Col xs={12} md={8}><code>&lt;{'Col xs={12} md={8}'} /&gt;</code></Col>
-        <Col xs={6} md={4}><code>&lt;{'Col xs={6} md={4}'} /&gt;</code></Col>
-      </Row>
-    </Grid>
-  );
+
+class Install extends Component {
+  render() {
+    return (
+      <div className="row ycontain">
+        <div className="col-xs-3 col-md-3">
+        </div>
+        <div className="col-md-9 col-lg-9 ycontain__ycontext">
+          <center><img className="ycontain__ycontext--yimg" src="https://open.spotify.com/static/images/devices/mac.png" /></center>
+          <h1>¿Ya conoces nuestra aplicación de escritorio?</h1>
+          <h2>¡Descárgala para tener la mejor experiencia Spotify!</h2>
+          <center><a className="btn btn-green ycontain__ycontext--ybtn" target="_blank" href="https://www.spotify.com/download">DESCARGAR APP </a></center>
+        </div>
+      </div>
+    );
+  }
 }
 
-
-export default install;
+export default Install;
